@@ -1,0 +1,15 @@
+suite: armforge-phase00
+description: >
+  Placeholder benchmark suite configuration retained for schema stabilization.
+platform:
+  instance_type: c8g.2xlarge
+  cpu: Neoverse V2
+  compiler: gcc-13
+workloads:
+  - name: flash_attention_forward
+    enabled: false
+    reason: "Phase-03 implementation not yet available"
+  - name: gemm_i8mm
+    enabled: false
+    reason: "Phase-05 implementation not yet available"
+
